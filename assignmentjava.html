@@ -1,0 +1,76 @@
+
+<!Doctype html>
+<html lang='en'>
+<head>
+<title>assignment java</title>
+
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+<link rel='stylesheet' type='text/css' href='bootstrap/css/bootstrap.css'>
+<style style='text/css'>
+
+#name{
+color:white;
+height:100px;
+width:100px;
+font-family:roboto;
+border-radius:50px;
+}
+
+#click{
+height:50px;
+width:50px;
+background-color:yellow;
+color:brown;
+font-family:italic;
+
+}
+
+#world{
+
+color:red;
+font-family:italic;
+height:100px;
+width:100px;
+}
+#divo{
+background-color:black;
+height:400px;
+width:200px;
+border-radius:20px;
+}
+</style>
+</head>
+
+<body id="world"onload="alert('Hello World')">
+
+	
+	<div id="divo" class='container'>
+	
+		
+		
+		<button id="click"onclick="alert('you clicked me')">Must click</button><br><br><br><br>
+			
+		
+		
+		
+			
+		<br><br><br><br>
+				
+		<button id="name"style="background-color:green" onclick="
+		var your_name=prompt('what is your name?' );
+		var response=confirm('are you sure your name is  '+your_name+'?');
+		if(response == true){
+		alert('welcome '+your_name+'!');
+		}else{
+			alert('welcome, guest');
+		}
+		
+		">Fill in Your Name</button>
+			
+	</div>
+		
+		
+
+</body>
+</html>
